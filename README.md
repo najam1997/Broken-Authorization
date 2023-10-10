@@ -5,8 +5,10 @@
 2. Make sure you have Node JS installed.
 3. For Windows, you'll have to download and install **node** as well as **npm** from browser. For Linux, following command would do:
 ```
-sudo apt-get install node
+sudo apt-get install nodejs
 sudo apt-get install npm
+sudo apt-get install mongodb
+sudo apt-get install mongoose
 ```
 
 ## Steps for setup
