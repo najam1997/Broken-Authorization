@@ -23,9 +23,17 @@ git clone https://gitlab.com/nusk-labs/ctf/broken-authentication.git
 ```
 cd broken-authentication
 npm install
+```
+5. Run the following command to check whether DB is active:
+```
+mongosh
+```
+6. Note the link the DB is connected on and paste it in **dbURI** variable in the app.js file.
+7. Then run the following command:
+```
 node app.js
 ```
-5. Then start the challenge, for which you'll have to go on the link http://127.0.0.1:3000 on a browser.
+10. Start the challenge thereafter, for which you'll have to go on the link http://127.0.0.1:3000 on a browser.
 
 ## Vulnerability difficulty and Exploitation details
 1. Difficulty: Easy
