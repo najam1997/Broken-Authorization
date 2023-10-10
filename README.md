@@ -30,12 +30,13 @@ mongosh
 ```
 6. Note the link the DB is connected on and paste it in **dbURI** variable in the app.js file.
 <script src="https://gitlab.com/nusk-labs/ctf/broken-authentication/-/blame/main/app.js?ref_type=heads#L18"></script>
-`https://gitlab.com/nusk-labs/ctf/broken-authentication/-/blame/main/app.js?ref_type=heads#L18`
+[The link to the dbURI variable](https://gitlab.com/nusk-labs/ctf/broken-authentication/-/blame/main/app.js?ref_type=heads#L18){:target="_blank"}
+
 7. Then run the following command:
 ```
 node app.js
 ```
-10. Start the challenge thereafter, for which you'll have to go on the link http://127.0.0.1:3000 on a browser.
+8. Start the challenge thereafter, for which you'll have to go on the link http://127.0.0.1:3000 on a browser.
 
 ## Vulnerability difficulty and Exploitation details
 1. Difficulty: Easy
