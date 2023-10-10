@@ -28,9 +28,10 @@ npm install
 ```
 mongosh
 ```
-6. Note the link the DB is connected on and paste it in [dbURI](https://gitlab.com/nusk-labs/ctf/broken-authentication/-/blame/main/app.js?ref_type=heads#L18) variable in the app.js file.
+6. Note the link the DB is connected on, it'll look like this: `mongodb://127.0.0.1:27017/`
+then paste it in [dbURI](https://gitlab.com/nusk-labs/ctf/broken-authentication/-/blame/main/app.js?ref_type=heads#L18) variable in the app.js file.
 
-7. Then run the following command:
+7. Afterwards, run the following command:
 ```
 node app.js
 ```
