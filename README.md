@@ -28,9 +28,7 @@ npm install
 ```
 mongosh
 ```
-6. Note the link the DB is connected on and paste it in **dbURI** variable in the app.js file.
-<script src="https://gitlab.com/nusk-labs/ctf/broken-authentication/-/blame/main/app.js?ref_type=heads#L18"></script>
-[The link to the dbURI variable](https://gitlab.com/nusk-labs/ctf/broken-authentication/-/blame/main/app.js?ref_type=heads#L18){:target="_blank"}
+6. Note the link the DB is connected on and paste it in [dbURI](https://gitlab.com/nusk-labs/ctf/broken-authentication/-/blame/main/app.js?ref_type=heads#L18){:target="_blank"} variable in the app.js file.
 
 7. Then run the following command:
 ```
