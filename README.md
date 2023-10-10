@@ -19,9 +19,10 @@ sudo apt-get install mongoose
 git clone https://gitlab.com/nusk-labs/ctf/broken-authentication.git
 ```
 3. This will clone the Repo.
-4. Then we need to start our Node JS App, for that run:
+4. Then we need to install required libraries and start our Node JS App, for that run:
 ```
 cd broken-authentication
+npm install
 node app.js
 ```
 5. Then start the challenge, for which you'll have to go on the link http://127.0.0.1:3000 on a browser.
