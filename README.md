@@ -14,12 +14,12 @@ sudo apt-get install npm
 1. Open CMD/Terminal on your desktop.
 2. Run the following command: 
 ```
-git clone https://gitlab.com/nusk-labs/ctf/broken-authentication.git
+git clone https://gitlab.com/nusk-labs/ctf/broken-authorization.git
 ```
 3. This will clone the Repo.
 4. Then we need to install required libraries and start our Node JS App, for that run:
 ```
-cd broken-authentication
+cd broken-authorization
 npm install
 ```
 5. Run the following command to start and check whether DB is active:
